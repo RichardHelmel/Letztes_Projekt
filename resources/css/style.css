@@ -29,8 +29,8 @@ body {
 }
 
 .mobile_header img {
-    height: 40px;
-    width: 40px;
+    height: auto;
+    max-width: 100%;
     margin: 12px;
 }
 /* header ende */
@@ -60,11 +60,12 @@ body {
 .mobile_hero_content h1 {
     padding-bottom: 32px;
     font-weight: bold;
+    font-size: 30px;
 }
 
 .mobile_hero_content p {
     padding-bottom: 24px;
-    font-weight: bold;
+    font-size: 20px;
 }
 
 .mobile_hero_content button {
@@ -81,35 +82,88 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f3f5f5;
-    border: solid green 1px;
 }
 
 .mobile_galerie_content {
     display: flex;
-    border: solid red 1px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 16px;
+}
+
+.mobile_galerie_content img {
+    width: 100%;
+    height: auto;
 }
 
 .mobile_galerie_content_text_box { 
-    border: solid blue 1px;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px;
     width: 100%;
+    
 }
+/*galerie ende */
 
-/* du bist hier stehen geblieben das problem was du hattest musst dur nochmal beheben unzwar das de text ungleichmäßig ist als die anderen  */
-
+/* start learning */
 .mobile_start_learning_container {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f5f5;
 }
+
+
+.mobile_start_learning_content_box {
+    background-color: #9b9b9b;
+    width: 90%;
+    margin: 8px;
+}
+
+.mobile_start_learning_content_h1{
+    margin: 16px 32px 16px 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mobile_start_learning_content_box p {
+    margin: 16px 16px 24px 16px;
+    font-weight: bold;
+    font-size: larger;
+}
+/* start learning ende */
+
+
 
 .mobile_video_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f5f5;
+}
 
+.mobile_video_container video {
+    width: 100%;
+    height: auto;
+}
+
+.mobile_video_container h1 {
+    margin: 16px 32px 16px 16px;
+    font-weight: 900;
+    font-size: 30px;   
 }
 
 .mobile_footer {
+    display: flex;
+    background-color: #dbdbdb;
+}
 
+.mobile_footer p {
+    margin: 16px;
 }
 
 
